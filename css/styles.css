@@ -1,0 +1,41 @@
+div.tablero {
+    background-color:  rgb(21, 38, 90);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+div.contenedor_formulario {
+    background-color : rgb(21, 38, 90);
+    height : 100%;
+    left : 0;
+    right : 50%;
+    position : absolute;
+}
+
+div.contenedor_perfiles {
+    background-color: dodgerblue;
+    height : 100%;
+    left : 50%;
+    right : 0;
+    position :  absolute;
+    padding: 10px;
+    overflow: auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+label.label {
+    color: rgb(243, 199, 6);
+}
+
+#btnTitle {
+    text-transform: uppercase;
+}
+
+.card-title {
+    font-size: large;
+}
